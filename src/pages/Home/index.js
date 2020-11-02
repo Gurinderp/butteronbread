@@ -3,7 +3,11 @@ import "./index.css"
 
 function Home() {
     return(
-        <div>Home</div>
+        <div>
+            <div>Opening</div>
+            <div>Second Box</div>
+            <div>Third Box</div>
+        </div>
     )
 }
 
