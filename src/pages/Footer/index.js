@@ -1,10 +1,13 @@
 import React from "react";
-import "./index.css"
+import "./index.css";
 
 function Footer() {
-    return(
-        <div>Footer</div>
-    )
+	return (
+		<div>
+			<div>Footer</div>
+			<div>Footer</div>
+		</div>
+	);
 }
 
 export default Footer;

@@ -1,40 +1,42 @@
 import React from "react";
-import "./index.css"
+import "./index.css";
 
 function Home() {
-    return(
-        <div className="homepage-container">
-            <div className="section-one section">
-                <div className="landing-description">
-                    <div className="one-description">
-                        <div className="descript-one">Butter On Bread</div>
-                        <div className="descript-two">The World's Bread and Butter!</div>              
-                        <div className="landing-button">
-                            <button>Continue</button>
-                        </div>
-                    </div>
-                    <div className="sone-left highlight">
-                        <div className="landing-product">Bread</div>
-                        <div className="landing-product">BonBread</div>
-                    </div>
-                    <div className="sone-right highlight">
-                        <div className="landing-product">Butter</div>
-                        <div className="landing-product">Bontoast</div>
-                    </div>
-                </div>
-            </div>
-            <div className="section-two section">
-                <div className="stwo-wording">Word Section</div>
-                <div className="stwo-image home-image">Imagine Section</div>
-            </div>
-            <div className="section-three section">
-                <div className="sthree-countdown">Limited Time Offer</div>
-                <div className="sthree-image home-image">LTO Imagine</div>
-                <div className="sthree-wording">LTO Description</div>
-                <div className="sthree-warning">Warning Section</div>
-            </div>
-        </div>
-    )
+	return (
+		<div className="homepage-container">
+			<div className="section-one section">
+				<div className="landing-description">
+					<div className="one-description">
+						<div className="descript-one">Butter On Bread</div>
+						<div className="descript-two">
+							The World's Bread and Butter!
+						</div>
+						<div className="landing-button">
+							<button>Continue</button>
+						</div>
+					</div>
+					<div className="sone-left highlight">
+						<div className="landing-product">Bread</div>
+						<div className="landing-product">BonBread</div>
+					</div>
+					<div className="sone-right highlight">
+						<div className="landing-product">Butter</div>
+						<div className="landing-product">Bontoast</div>
+					</div>
+				</div>
+			</div>
+			<div className="section-two section">
+				<div className="stwo-wording">Word Section</div>
+				<div className="stwo-image home-image">Imagine Section</div>
+			</div>
+			<div className="section-three section">
+				<div className="sthree-countdown">Limited Time Offer</div>
+				<div className="sthree-image home-image">LTO Imagine</div>
+				<div className="sthree-wording">LTO Description</div>
+				<div className="sthree-warning">Warning Section</div>
+			</div>
+		</div>
+	);
 }
 
 export default Home;
