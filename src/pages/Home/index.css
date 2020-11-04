@@ -1,0 +1,47 @@
+/* Homepage container*/
+.homepage-container {
+	width: 100%;
+}
+
+/* Sections One, Two, and Three */
+.section {
+	border: 1px solid pink;
+	max-width: 100%;
+	min-height: 91vh;
+}
+
+/* Section One */
+.highlight {
+	display: inline;
+}
+
+.landing-description {
+	display: flex;
+}
+
+.landing-product {
+	border: 1px solid green;
+	min-height: 40vh;
+	min-width: 30vw;
+	margin: 3vh;
+	margin-bottom: 5vh;
+}
+
+.sone-left {
+	margin-left: auto;
+}
+
+/* Section Two*/
+.stwo-wording {
+	border: 1px solid black;
+	height: 40vh;
+	width: 30vw;
+}
+
+.stwo-imagine {
+	border: 1px solid black;
+	height: 40vh;
+	width: 30vw;
+}
+
+/* Section Three*/

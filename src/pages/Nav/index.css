@@ -1,0 +1,6 @@
+.nav-container {
+	border: 2px solid black;
+	height: auto;
+	min-height: 8vh;
+	max-width: 100%;
+}
