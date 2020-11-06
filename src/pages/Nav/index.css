@@ -12,7 +12,8 @@
 	padding: 2vw;
 }
 
-.nav-links a {
+.nav-links a,
+.nav-logo a {
 	color: brown;
 	text-decoration: none;
 	padding: 1vw;
@@ -24,4 +25,10 @@
 	margin-left: 10%;
 	padding: 2vw;
 	text-align: center;
+}
+
+.nav-links a:focus,
+.nav-logo a:focus {
+	outline: none;
+	box-shadow: none;
 }

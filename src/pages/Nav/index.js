@@ -6,7 +6,7 @@ function Nav() {
 	return (
 		<div className="nav-container">
 			<div className="nav-logo">
-				<p>BUTTER'N'BREAD</p>
+				<Link to="/">BUTTER'N'BREAD</Link>
 			</div>
 			<div className="nav-links">
 				<Link to="/">Home</Link>
