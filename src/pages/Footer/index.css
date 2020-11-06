@@ -10,12 +10,12 @@
 }
 
 .footer-container {
-	background-color: rgb(255, 218, 170);
+	background-color: rgb(255, 207, 145);
 	display: flex;
 	font-size: 1.7vh;
 	height: auto;
 	margin-left: 50%;
-	min-height: 10vh;
+	height: auto;
 	transform: translate(-50%);
 	width: 100%;
 }
