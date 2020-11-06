@@ -11,6 +11,16 @@
 }
 
 /* Section One */
+.cont-btn {
+	background-color: transparent;
+	border: none;
+	font-size: 3vh;
+}
+
+.descript-one {
+	margin-top: 7vh;
+}
+
 .highlight {
 	display: inline;
 }
@@ -27,14 +37,35 @@
 .landing-product {
 	border: 1px solid green;
 	height: auto;
-	width: 30vw;
-	margin: 3vh;
-	margin-bottom: 5vh;
-	margin-top: 7vh;
+	width: 32vw;
+}
+
+.one-description {
+	background-color: rgba(235, 170, 116, 0.815);
+	border: 1px solid black;
+	font-size: 5.3vh;
+	height: 55vh;
+	letter-spacing: 0.1vw;
+	line-height: 2;
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: 14vh;
+	padding: 3vh;
+	text-align: center;
+	width: 22vw;
 }
 
 .sone-left {
 	margin-left: auto;
+}
+
+.sone-right {
+	margin-right: 1.3vw;
+}
+
+.sone-left,
+.sone-right {
+	margin-top: 9vh;
 }
 
 /* Section Two*/
@@ -46,13 +77,14 @@
 .stwo-wording {
 	background-color: rgb(235, 169, 116);
 	border: 1px solid black;
-	height: 40vh;
-	width: 30vw;
+	height: 34vh;
 	margin-left: auto;
 	margin-top: auto;
 	margin-bottom: auto;
+	padding: 3vh;
 	text-align: center;
 	transform: translate(4vw, -6vh);
+	width: 30vw;
 }
 
 .stwo-wording p {
@@ -71,3 +103,48 @@
 }
 
 /* Section Three*/
+
+.sthree-countdown {
+	padding: 4vh;
+}
+
+.sthree-image {
+	border: 1px solid black;
+	height: 70vh;
+	width: 60vw;
+	margin-left: auto;
+}
+
+.sthree-LTO {
+	display: flex;
+}
+
+.sthree-wording {
+	background-color: rgb(235, 169, 116);
+	border: 1px solid black;
+	height: 34vh;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	padding: 3vh;
+	transform: translate(-4vw, -6vh);
+	text-align: center;
+	width: 30vw;
+}
+
+.sthree-wording p {
+	color: rgb(255, 236, 220);
+	font-size: 7vh;
+	line-height: 1.3;
+}
+
+.sthree-warning {
+	background-color: rgb(200, 206, 211);
+	text-align: center;
+	height: auto;
+	margin-top: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1vh;
+	width: 40%;
+}

@@ -13,7 +13,9 @@ function Home() {
 							The World's Bread and Butter!
 						</div>
 						<div className="landing-button">
-							<button>Continue</button>
+							<button onclick="" className="cont-btn">
+								Continue
+							</button>
 						</div>
 					</div>
 					<div className="sone-left highlight">
@@ -47,12 +49,28 @@ function Home() {
 				</div>
 			</div>
 			<div className="section-three section">
-				<div className="sthree-countdown">Limited Time Offer</div>
-				<div className="sthree-image home-image">
-					<img src={placeholder} alt="placeholder"></img>
+				<div className="sthree-countdown">
+					<p>
+						LIMITED Time Offer:{" "}
+						<span className="countdown-timer">00:00:00</span>
+					</p>
 				</div>
-				<div className="sthree-wording">LTO Description</div>
-				<div className="sthree-warning">Warning Section</div>
+				<div className="sthree-LTO">
+					<div className="sthree-image home-image">
+						<img
+							src={placeholder}
+							alt="placeholder"
+							className="sthree-image"
+						></img>
+					</div>
+					<div className="sthree-wording">
+						<p>WORD SECTION! HERE IS THE WORD SECTION!</p>
+					</div>
+				</div>
+				<div className="sthree-warning">
+					This is the warning that will appear in the warning section.
+					Two sample sentences should be enough for now.
+				</div>
 			</div>
 		</div>
 	);
