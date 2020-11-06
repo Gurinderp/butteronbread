@@ -1,0 +1,25 @@
+.about-section {
+	margin-left: 7vw;
+}
+
+.bot-sect {
+	height: auto;
+	line-height: 1.2;
+	padding: 2%;
+	width: 30%;
+}
+
+.footer-container {
+	background-color: rgb(255, 218, 170);
+	display: flex;
+	font-size: 1.7vh;
+	height: auto;
+	margin-left: 50%;
+	min-height: 10vh;
+	transform: translate(-50%);
+	width: 100%;
+}
+
+.footer-title {
+	font-weight: bold;
+}
