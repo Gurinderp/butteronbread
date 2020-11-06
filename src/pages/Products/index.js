@@ -6,7 +6,7 @@ import placeholder from "../../assets/placeholderimage.png";
 function Products() {
 	return (
 		<div>
-			<div className="card-row">
+			<div className="card-row top">
 				<div className="product-card">
 					<div className="card-title">
 						<Link to="/products/butter">Butter</Link>

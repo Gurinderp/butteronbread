@@ -6,7 +6,11 @@ function Nav() {
 	return (
 		<div className="nav-container">
 			<div className="nav-logo">
-				<Link to="/">BUTTER'N'BREAD</Link>
+				<Link to="/">
+					BUTTER
+					<br />
+					BREAD
+				</Link>
 			</div>
 			<div className="nav-links">
 				<Link to="/">Home</Link>

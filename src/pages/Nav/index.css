@@ -10,19 +10,24 @@
 	margin-left: auto;
 	margin-right: 10%;
 	padding: 2vw;
+	margin-top: 2vh;
 }
 
-.nav-links a,
-.nav-logo a {
+.nav-links a {
 	color: brown;
 	text-decoration: none;
 	padding: 1vw;
+}
+.nav-logo a {
+	color: brown;
+	text-decoration: none;
 }
 
 .nav-logo {
 	color: brown;
 	font-size: 1.9vw;
-	margin-left: 10%;
+	letter-spacing: 0.5vw;
+	margin-left: 15%;
 	padding: 2vw;
 	text-align: center;
 }
