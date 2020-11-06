@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import placeholder from "../../assets/placeholderimage.png";
 
 function Home() {
 	return (
@@ -16,18 +17,34 @@ function Home() {
 						</div>
 					</div>
 					<div className="sone-left highlight">
-						<div className="landing-product">Bread</div>
-						<div className="landing-product">BonBread</div>
+						<div className="landing-product">
+							<img src={placeholder} alt="placeholder"></img>
+						</div>
+						<div className="landing-product">
+							<img src={placeholder} alt="placeholder"></img>
+						</div>
 					</div>
 					<div className="sone-right highlight">
-						<div className="landing-product">Butter</div>
-						<div className="landing-product">Bontoast</div>
+						<div className="landing-product">
+							<img src={placeholder} alt="placeholder"></img>
+						</div>
+						<div className="landing-product">
+							<img src={placeholder} alt="placeholder"></img>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div className="section-two section">
-				<div className="stwo-wording">Word Section</div>
-				<div className="stwo-image home-image">Imagine Section</div>
+				<div className="stwo-wording">
+					<p>WORD SECTION! HERE IS THE WORD SECTION!</p>
+				</div>
+				<div className="stwo-image home-image">
+					<img
+						src={placeholder}
+						alt="placeholder"
+						className="stwo-image"
+					></img>
+				</div>
 			</div>
 			<div className="section-three section">
 				<div className="sthree-countdown">Limited Time Offer</div>

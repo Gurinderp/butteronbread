@@ -15,16 +15,22 @@
 	display: inline;
 }
 
+.highlight img {
+	width: 100%;
+	height: 100%;
+}
+
 .landing-description {
 	display: flex;
 }
 
 .landing-product {
 	border: 1px solid green;
-	min-height: 40vh;
-	min-width: 30vw;
+	height: auto;
+	width: 30vw;
 	margin: 3vh;
 	margin-bottom: 5vh;
+	margin-top: 7vh;
 }
 
 .sone-left {
@@ -32,16 +38,36 @@
 }
 
 /* Section Two*/
-.stwo-wording {
-	border: 1px solid black;
-	height: 40vh;
-	width: 30vw;
+
+.section-two {
+	display: flex;
 }
 
-.stwo-imagine {
+.stwo-wording {
+	background-color: rgb(235, 169, 116);
 	border: 1px solid black;
 	height: 40vh;
 	width: 30vw;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+	transform: translate(4vw, -6vh);
+}
+
+.stwo-wording p {
+	color: rgb(255, 236, 220);
+	font-size: 7vh;
+	line-height: 1.3;
+}
+
+.stwo-image {
+	border: 1px solid black;
+	height: 70vh;
+	width: 60vw;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 /* Section Three*/
