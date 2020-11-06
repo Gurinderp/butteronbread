@@ -48,7 +48,9 @@ function Home() {
 			</div>
 			<div className="section-three section">
 				<div className="sthree-countdown">Limited Time Offer</div>
-				<div className="sthree-image home-image">LTO Imagine</div>
+				<div className="sthree-image home-image">
+					<img src={placeholder} alt="placeholder"></img>
+				</div>
 				<div className="sthree-wording">LTO Description</div>
 				<div className="sthree-warning">Warning Section</div>
 			</div>
