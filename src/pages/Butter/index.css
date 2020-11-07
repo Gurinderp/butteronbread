@@ -1,0 +1,56 @@
+.back-btn {
+	font-size: 1.3vw;
+	padding: 3vh;
+}
+
+.back-btn a {
+	color: brown;
+	text-decoration: none;
+}
+
+.product-amount {
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+}
+
+.product-container {
+	background-color: rgb(255, 227, 191);
+	margin-bottom: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 80vh;
+	width: 70%;
+}
+
+.product-page {
+	display: flex;
+}
+
+.prodpage-description {
+	letter-spacing: 0.1vw;
+	line-height: 1.5;
+	margin-left: 10vw;
+	margin-right: auto;
+	margin-top: 0.5vw;
+}
+
+.prodpage-image {
+	width: 30vw;
+	height: 60vh;
+	margin-left: 1vw;
+	margin-top: 1vw;
+}
+
+.prod-description {
+	font-size: 1.3vw;
+	margin-bottom: 3vh;
+	margin-top: 3vh;
+	width: 70%;
+}
+
+.prod-title {
+	font-size: 2vw;
+}
+
+.prod-price {
+}

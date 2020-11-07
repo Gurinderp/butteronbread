@@ -23,6 +23,12 @@
 .card-title a {
 	color: brown;
 	text-decoration: none;
+	transition: ease-in 0.2s;
+}
+
+.card-title a:hover {
+	color: rgb(189, 135, 92);
+	transition: ease-in 0.2s;
 }
 
 .card-description {
