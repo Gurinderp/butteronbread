@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import { Link } from "react-router-dom";
 import placeholder from "../../assets/placeholderimage.png";
 
 function Home() {
@@ -21,24 +22,28 @@ function Home() {
 					<div className="sone-left highlight">
 						<div className="landing-product">
 							<div className="product-overlay bread">
-								<p>Bread</p>
+								<Link to="/products/bread">Bread</Link>
 							</div>
 						</div>
 						<div className="landing-product">
-							<div className="product-overlay butter">
-								<p>Butter</p>
+							<div className="product-overlay bonbread">
+								<Link to="products/butteronbread">
+									Butter on Bread
+								</Link>
 							</div>
 						</div>
 					</div>
 					<div className="sone-right highlight">
 						<div className="landing-product">
-							<div className="product-overlay bonbread">
-								<p>Butter on Bread</p>
+							<div className="product-overlay butter">
+								<Link to="/products/butter">Butter</Link>
 							</div>
 						</div>
 						<div className="landing-product">
 							<div className="product-overlay bontoast">
-								<p>Butter on Toast</p>
+								<Link to="/products/butterontoast">
+									Butter on Toast
+								</Link>
 							</div>
 						</div>
 					</div>

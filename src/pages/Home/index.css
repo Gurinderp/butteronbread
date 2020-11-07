@@ -64,7 +64,6 @@ body {
 
 .product-overlay {
 	background-color: rgba(112, 128, 144, 0.5);
-	color: white;
 	font-size: 3vw;
 	text-align: center;
 	letter-spacing: 0.5vw;
@@ -72,6 +71,11 @@ body {
 	padding-bottom: 15.8vh;
 	opacity: 0.5;
 	transition: ease-in-out 0.5s;
+}
+
+.product-overlay a {
+	color: white;
+	text-decoration: none;
 }
 
 .bread {
