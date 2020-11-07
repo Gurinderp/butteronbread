@@ -20,18 +20,26 @@ function Home() {
 					</div>
 					<div className="sone-left highlight">
 						<div className="landing-product">
-							<img src={placeholder} alt="placeholder"></img>
+							<div className="product-overlay bread">
+								<p>Bread</p>
+							</div>
 						</div>
 						<div className="landing-product">
-							<img src={placeholder} alt="placeholder"></img>
+							<div className="product-overlay butter">
+								<p>Butter</p>
+							</div>
 						</div>
 					</div>
 					<div className="sone-right highlight">
 						<div className="landing-product">
-							<img src={placeholder} alt="placeholder"></img>
+							<div className="product-overlay bonbread">
+								<p>Butter on Bread</p>
+							</div>
 						</div>
 						<div className="landing-product">
-							<img src={placeholder} alt="placeholder"></img>
+							<div className="product-overlay bontoast">
+								<p>Butter on Toast</p>
+							</div>
 						</div>
 					</div>
 				</div>

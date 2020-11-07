@@ -33,13 +33,17 @@ body {
 	height: 100%;
 }
 
+.highlight-picture {
+	position: relative;
+}
+
 .landing-description {
 	display: flex;
 }
 
 .landing-product {
-	height: auto;
 	width: 32vw;
+	height: 38vh;
 }
 
 .one-description {
@@ -56,6 +60,74 @@ body {
 	padding: 3vh;
 	text-align: center;
 	width: 22vw;
+}
+
+.product-overlay {
+	background-color: rgba(112, 128, 144, 0.5);
+	color: white;
+	font-size: 3vw;
+	text-align: center;
+	letter-spacing: 0.5vw;
+	padding-top: 15.8vh;
+	padding-bottom: 15.8vh;
+	opacity: 0.5;
+	transition: ease-in-out 0.5s;
+}
+
+.bread {
+	background-image: url(../../assets/placeholderimage.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bread:hover {
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.butter {
+	background-image: url(../../assets/placeholderimage.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.butter:hover {
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.bonbread {
+	background-image: url(../../assets/placeholderimage.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bonbread:hover {
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.bontoast {
+	background-image: url(../../assets/placeholderimage.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bontoast:hover {
+	opacity: 1;
+	transition: all 0.5s;
 }
 
 .sone-left {
