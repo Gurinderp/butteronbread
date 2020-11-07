@@ -45,7 +45,9 @@ function Products() {
 			<div className="card-row">
 				<div className="product-card">
 					<div className="card-title">
-						<Link to="/products/butteronbread">Bonbread</Link>
+						<Link to="/products/butteronbread">
+							Butter on Bread
+						</Link>
 					</div>
 					<img
 						src={placeholder}
@@ -62,7 +64,9 @@ function Products() {
 				</div>
 				<div className="product-card right">
 					<div className="card-title">
-						<Link to="/products/butterontoast">Bontoast</Link>
+						<Link to="/products/butterontoast">
+							Butter on Toast
+						</Link>
 					</div>
 					<img
 						src={placeholder}
