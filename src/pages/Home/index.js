@@ -1,7 +1,8 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
-import placeholder from "../../assets/placeholderimage.png";
+import sectionTwo from "../../assets/butterandbread.jpg";
+import LTO from "../../assets/toast.jpg";
 
 function Home() {
 	return (
@@ -9,13 +10,15 @@ function Home() {
 			<div className="section-one section">
 				<div className="landing-description">
 					<div className="one-description">
-						<div className="descript-one">Butter On Bread</div>
+						<div className="descript-one">Butter On Bread,</div>
 						<div className="descript-two">
 							The World's Bread and Butter!
 						</div>
 						<div className="landing-button">
-							<button onclick="" className="cont-btn">
-								Continue
+							<button className="cont-btn">
+								<a href="#section-two" className="cont-btn">
+									CONTINUE
+								</a>
 							</button>
 						</div>
 					</div>
@@ -49,13 +52,21 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="section-two section">
+			<div className="section-two section" id="section-two">
 				<div className="stwo-wording">
-					<p>WORD SECTION! HERE IS THE WORD SECTION!</p>
+					<p>
+						Since their creation, Bread and Butter have been staple
+						foods throughout the world.
+					</p>
+					<p>
+						Now Butter On Bread brings you the soft, mesmerizing
+						taste of Butter combined with the iconic and nostalgic
+						taste of Bread!
+					</p>
 				</div>
 				<div className="stwo-image home-image">
 					<img
-						src={placeholder}
+						src={sectionTwo}
 						alt="placeholder"
 						className="stwo-image"
 					></img>
@@ -71,18 +82,26 @@ function Home() {
 				<div className="sthree-LTO">
 					<div className="sthree-image home-image">
 						<img
-							src={placeholder}
+							src={LTO}
 							alt="placeholder"
 							className="sthree-image"
 						></img>
 					</div>
 					<div className="sthree-wording">
-						<p>WORD SECTION! HERE IS THE WORD SECTION!</p>
+						<p>NOW OFFERING: TOAST</p>
+						<p>Available in six different levels.</p>
+						<p>LIMITED TIME OFFER</p>
+						<div className="LTO-buy">
+							<Link>Click To Buy</Link>
+						</div>
 					</div>
 				</div>
 				<div className="sthree-warning">
-					This is the warning that will appear in the warning section.
-					Two sample sentences should be enough for now.
+					<p>
+						The product shown is a limited time offer and may not be
+						available during purchase. Considering this is just an
+						example website, it most definitely isn't.
+					</p>
 				</div>
 			</div>
 		</div>

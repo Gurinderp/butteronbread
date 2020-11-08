@@ -1,7 +1,11 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
-import placeholder from "../../assets/placeholderimage.png";
+import bread from "../../assets/bread.jpg";
+import bonbread from "../../assets/bonbread.jpg";
+import bontoast from "../../assets/bontoast.jpg";
+import butter from "../../assets/butter.jpg";
+import toast from "../../assets/toast.jpg";
 
 function Products() {
 	return (
@@ -12,7 +16,7 @@ function Products() {
 						<Link to="/products/butter">Butter</Link>
 					</div>
 					<img
-						src={placeholder}
+						src={butter}
 						alt="placeholder"
 						className="card-image"
 					></img>
@@ -32,7 +36,7 @@ function Products() {
 						<Link to="/products/bread">Bread</Link>
 					</div>
 					<img
-						src={placeholder}
+						src={bread}
 						alt="placeholder"
 						className="card-image"
 					></img>
@@ -56,7 +60,7 @@ function Products() {
 						</Link>
 					</div>
 					<img
-						src={placeholder}
+						src={bonbread}
 						alt="placeholder"
 						className="card-image"
 					></img>
@@ -78,7 +82,7 @@ function Products() {
 						</Link>
 					</div>
 					<img
-						src={placeholder}
+						src={bontoast}
 						alt="placeholder"
 						className="card-image"
 					></img>
@@ -100,7 +104,7 @@ function Products() {
 						<Link to="/products/toast">LTO: Toast</Link>
 					</div>
 					<img
-						src={placeholder}
+						src={toast}
 						alt="placeholder"
 						className="card-image"
 					></img>
