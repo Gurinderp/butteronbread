@@ -22,9 +22,10 @@ function Bontoast() {
 				<div className="prodpage-description">
 					<div className="prod-title">Butter on Toast</div>
 					<div className="prod-description">
-						This is sample text for the description. Two or three
-						sentences should be long enough. I guess I will make it
-						three sentences just in case.
+						A pale yellow edible fatty substance made by churning
+						cream and used as a spread or in cooking on top of
+						sliced bread browned on both sides by exposure to
+						radiant heat.
 					</div>
 					<div className="prod-price">
 						$100.00 <button>-</button>

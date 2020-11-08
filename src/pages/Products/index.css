@@ -45,7 +45,8 @@
 	text-decoration: underline;
 }
 
-.card-image {
+.cd-price {
+	margin-top: 1.5vh;
 }
 
 .product-card {

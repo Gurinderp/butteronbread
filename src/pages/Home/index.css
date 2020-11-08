@@ -187,7 +187,6 @@ body {
 }
 
 .stwo-image {
-	border: 1px solid black;
 	height: 70vh;
 	width: 60vw;
 	margin-right: auto;
@@ -224,7 +223,6 @@ body {
 }
 
 .sthree-image {
-	border: 1px solid black;
 	height: 70vh;
 	width: 60vw;
 	margin-left: auto;

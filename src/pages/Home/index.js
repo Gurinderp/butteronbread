@@ -92,7 +92,7 @@ function Home() {
 						<p>Available in six different levels.</p>
 						<p>LIMITED TIME OFFER</p>
 						<div className="LTO-buy">
-							<Link>Click To Buy</Link>
+							<Link to="/products/toast">Click To Buy</Link>
 						</div>
 					</div>
 				</div>

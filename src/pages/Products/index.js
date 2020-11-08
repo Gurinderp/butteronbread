@@ -25,7 +25,8 @@ function Products() {
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
-							This will be the product description
+							A pale yellow edible fatty substance made by
+							churning cream and used as a spread or in cooking.
 						</p>
 						<p className="cd-price">Price: $100.00</p>
 					</div>
@@ -47,7 +48,9 @@ function Products() {
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
-							This will be the product description
+							Soft and fluffy food made of flour, water, and yeast
+							or another leavening agent, mixed together and
+							baked.
 						</p>
 						<p className="cd-price">Price: $100.00</p>
 					</div>
@@ -73,7 +76,11 @@ function Products() {
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
-							This will be the product description
+							A pale yellow edible fatty substance made by
+							churning cream and used as a spread or in cooking on
+							top of soft and fluffy food made of flour, water,
+							and yeast or another leavening agent, mixed together
+							and baked.
 						</p>
 						<p className="cd-price">Price: $100.00</p>
 					</div>
@@ -97,7 +104,10 @@ function Products() {
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
-							This will be the product description
+							A pale yellow edible fatty substance made by
+							churning cream and used as a spread or in cooking on
+							top of sliced bread browned on both sides by
+							exposure to radiant heat.
 						</p>
 						<p className="cd-price">Price: $100.00</p>
 					</div>
@@ -121,7 +131,9 @@ function Products() {
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
-							This will be the product description
+							Sliced bread browned on both sides by exposure to
+							radiant heat. Available for a limited time in six
+							different levels.
 						</p>
 						<p className="cd-price">Price: $100.00</p>
 					</div>

@@ -22,9 +22,11 @@ function Toast() {
 				<div className="prodpage-description">
 					<div className="prod-title">Toast</div>
 					<div className="prod-description">
-						This is sample text for the description. Two or three
-						sentences should be long enough. I guess I will make it
-						three sentences just in case.
+						Sliced bread browned on both sides by exposure to
+						radiant heat. <br />
+						Available for a limited time in six different levels.{" "}
+						<br />
+						This product is not Gluten-Free.
 					</div>
 					<div className="prod-price">
 						$100.00 <button>-</button>

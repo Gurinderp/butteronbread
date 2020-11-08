@@ -22,9 +22,9 @@ function Bread() {
 				<div className="prodpage-description">
 					<div className="prod-title">Bread</div>
 					<div className="prod-description">
-						This is sample text for the description. Two or three
-						sentences should be long enough. I guess I will make it
-						three sentences just in case.
+						Soft and fluffy food made of flour, water, and yeast or
+						another leavening agent, mixed together and baked.{" "}
+						<br /> This product is not Gluten-Free.
 					</div>
 					<div className="prod-price">
 						$100.00 <button>-</button>
