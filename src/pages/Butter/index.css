@@ -29,13 +29,18 @@
 .prodpage-description {
 	letter-spacing: 0.1vw;
 	line-height: 1.5;
-	margin-left: 10vw;
+	margin-left: 6vw;
 	margin-right: auto;
 	margin-top: 0.5vw;
 }
 
+.prodpage-image-container {
+	width: 33vw;
+	height: 60vh;
+	overflow: hidden;
+}
+
 .prodpage-image {
-	width: 30vw;
 	height: 60vh;
 	margin-left: 1vw;
 	margin-top: 1vw;

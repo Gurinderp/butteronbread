@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
-import placeholder from "../../assets/placeholderimage.png";
+import bonbread from "../../assets/bonbread.jpg";
 
 function Bonbread() {
 	return (
@@ -11,11 +11,13 @@ function Bonbread() {
 			</div>
 			<div className="product-page">
 				<div className="prodpage-image">
-					<img
-						src={placeholder}
-						alt="placeholder"
-						className="prodpage-image"
-					></img>
+					<div className="prodpage-image-container">
+						<img
+							src={bonbread}
+							alt="placeholder"
+							className="prodpage-image"
+						></img>
+					</div>
 				</div>
 				<div className="prodpage-description">
 					<div className="prod-title">Butter on Bread</div>

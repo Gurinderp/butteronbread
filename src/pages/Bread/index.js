@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
-import placeholder from "../../assets/placeholderimage.png";
+import bread from "../../assets/bread.jpg";
 
 function Bread() {
 	return (
@@ -11,11 +11,13 @@ function Bread() {
 			</div>
 			<div className="product-page">
 				<div className="prodpage-image">
-					<img
-						src={placeholder}
-						alt="placeholder"
-						className="prodpage-image"
-					></img>
+					<div className="prodpage-image-container">
+						<img
+							src={bread}
+							alt="placeholder"
+							className="prodpage-image"
+						></img>
+					</div>
 				</div>
 				<div className="prodpage-description">
 					<div className="prod-title">Bread</div>

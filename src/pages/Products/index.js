@@ -15,11 +15,13 @@ function Products() {
 					<div className="card-title">
 						<Link to="/products/butter">Butter</Link>
 					</div>
-					<img
-						src={butter}
-						alt="placeholder"
-						className="card-image"
-					></img>
+					<div className="product-image-container">
+						<img
+							src={butter}
+							alt="placeholder"
+							className="card-image"
+						></img>
+					</div>
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
@@ -35,11 +37,13 @@ function Products() {
 					<div className="card-title">
 						<Link to="/products/bread">Bread</Link>
 					</div>
-					<img
-						src={bread}
-						alt="placeholder"
-						className="card-image"
-					></img>
+					<div className="product-image-container">
+						<img
+							src={bread}
+							alt="placeholder"
+							className="card-image"
+						></img>
+					</div>
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
@@ -59,11 +63,13 @@ function Products() {
 							Butter on Bread
 						</Link>
 					</div>
-					<img
-						src={bonbread}
-						alt="placeholder"
-						className="card-image"
-					></img>
+					<div className="product-image-container">
+						<img
+							src={bonbread}
+							alt="placeholder"
+							className="card-image"
+						></img>
+					</div>
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
@@ -81,11 +87,13 @@ function Products() {
 							Butter on Toast
 						</Link>
 					</div>
-					<img
-						src={bontoast}
-						alt="placeholder"
-						className="card-image"
-					></img>
+					<div className="product-image-container">
+						<img
+							src={bontoast}
+							alt="placeholder"
+							className="card-image"
+						></img>
+					</div>
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
@@ -103,11 +111,13 @@ function Products() {
 					<div className="card-title">
 						<Link to="/products/toast">LTO: Toast</Link>
 					</div>
-					<img
-						src={toast}
-						alt="placeholder"
-						className="card-image"
-					></img>
+					<div className="product-image-container">
+						<img
+							src={toast}
+							alt="placeholder"
+							className="card-image"
+						></img>
+					</div>
 					<div className="card-description">
 						<p className="cd-title">Description</p>
 						<p className="cd-description">
