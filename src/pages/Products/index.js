@@ -23,6 +23,9 @@ function Products() {
 						</p>
 						<p className="cd-price">Price: $100.00</p>
 					</div>
+					<div className="see-more">
+						<Link to="/products/butter">See More</Link>
+					</div>
 				</div>
 				<div className="product-card right">
 					<div className="card-title">
@@ -39,6 +42,9 @@ function Products() {
 							This will be the product description
 						</p>
 						<p className="cd-price">Price: $100.00</p>
+					</div>
+					<div className="see-more">
+						<Link to="/products/bread">See More</Link>
 					</div>
 				</div>
 			</div>
@@ -61,6 +67,9 @@ function Products() {
 						</p>
 						<p className="cd-price">Price: $100.00</p>
 					</div>
+					<div className="see-more">
+						<Link to="/products/butteronbread">See More</Link>
+					</div>
 				</div>
 				<div className="product-card right">
 					<div className="card-title">
@@ -80,6 +89,9 @@ function Products() {
 						</p>
 						<p className="cd-price">Price: $100.00</p>
 					</div>
+					<div className="see-more">
+						<Link to="/products/butterontoast">See More</Link>
+					</div>
 				</div>
 			</div>
 			<div className="card-row">
@@ -98,6 +110,9 @@ function Products() {
 							This will be the product description
 						</p>
 						<p className="cd-price">Price: $100.00</p>
+					</div>
+					<div className="see-more">
+						<Link to="/products/butterontoast">See More</Link>
 					</div>
 				</div>
 			</div>

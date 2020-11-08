@@ -58,6 +58,27 @@
 	margin-left: 3vh;
 }
 
+.see-more {
+	text-align: right;
+	margin: 2vh;
+	margin-top: 0vh;
+}
+
+.see-more a {
+	color: brown;
+	transition: ease-in 0.2s;
+}
+
+.see-more a:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.see-more a:hover {
+	color: rgb(189, 135, 92);
+	transition: ease-in 0.2s;
+}
+
 .top {
 	margin-top: 7vh;
 }
