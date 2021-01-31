@@ -70,75 +70,54 @@ body {
 }
 
 .product-overlay {
-	background-color: rgba(112, 128, 144, 0.5);
 	font-size: 3vw;
 	text-align: center;
 	letter-spacing: 0.5vw;
 	padding-top: 15.8vh;
 	padding-bottom: 15.8vh;
-	opacity: 0.5;
-	transition: ease-in-out 0.5s;
+	opacity: 0.7;
+	transition: ease-in-out 0.3s;
 }
 
 .product-overlay a {
-	color: white;
+	color: rgb(54, 54, 54);
 	text-decoration: none;
+}
+
+.bread,
+.butter,
+.bonbread,
+.bontoast {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bread:hover,
+.butter:hover,
+.bonbread:hover,
+.bontoast:hover {
+	font-size: 3.1vw;
+	opacity: 1;
+	transition: all 0.5s;
 }
 
 .bread {
 	background-image: url(../../assets/bread.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.bread:hover {
-	opacity: 1;
-	transition: all 0.5s;
 }
 
 .butter {
 	background-image: url(../../assets/butter.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.butter:hover {
-	opacity: 1;
-	transition: all 0.5s;
 }
 
 .bonbread {
 	background-image: url(../../assets/bonbread.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.bonbread:hover {
-	opacity: 1;
-	transition: all 0.5s;
 }
 
 .bontoast {
 	background-image: url(../../assets/bontoast.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.bontoast:hover {
-	opacity: 1;
-	transition: all 0.5s;
 }
 
 .landing-button {
