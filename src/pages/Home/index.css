@@ -128,44 +128,37 @@ body {
 	margin-left: auto;
 }
 
-.sone-right {
-}
-
-.sone-left,
-.sone-right {
-}
-
 /* Section Two*/
 
 .section-two {
+	background-color: rgb(165, 42, 42);
 	display: flex;
 	height: 100vh;
 }
 
 .stwo-wording {
-	background-color: rgb(235, 169, 116);
-	border: 1px solid rgb(189, 135, 92);
+	background-color: rgba(236, 159, 96, 0.815);
 	box-shadow: 0px 0px 10px 2px rgb(189, 135, 92);
-	height: 34vh;
+	/* border: 1px solid rgb(189, 135, 92); */
+	height: auto;
 	margin-left: auto;
 	margin-top: auto;
 	margin-bottom: auto;
 	padding: 3vh;
 	text-align: center;
-	transform: translate(4vw, -6vh);
-	width: 30vw;
+	transform: translate(4vw, -10vh);
+	width: auto;
 }
 
 .stwo-wording p {
-	color: rgb(255, 236, 220);
-	font-size: 3.5vh;
-	line-height: 1.5;
-	margin-top: 2.7vh;
+	color: white;
+	font-size: 1.6em;
+	line-height: 1.8;
 }
 
 .stwo-image {
-	height: 70vh;
-	width: 60vw;
+	height: 90vh;
+	width: 75vw;
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
