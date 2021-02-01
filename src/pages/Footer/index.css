@@ -10,7 +10,8 @@
 }
 
 .footer-container {
-	background-color: rgb(255, 207, 145);
+	background-color: rgb(165, 42, 42);
+	color: white;
 	display: flex;
 	font-size: 1.7vh;
 	height: auto;

@@ -63,6 +63,11 @@ function Home() {
 						taste of Butter combined with the iconic and nostalgic
 						taste of Bread!
 					</p>
+					<button className="cont-btn">
+						<a href="#section-three" className="cont-btn">
+							CONTINUE
+						</a>
+					</button>
 				</div>
 				<div className="stwo-image home-image">
 					<img
@@ -72,7 +77,7 @@ function Home() {
 					></img>
 				</div>
 			</div>
-			<div className="section-three section">
+			<div className="section-three section" id="section-three">
 				<div className="sthree-countdown">
 					<p>
 						LIMITED Time Offer:{" "}

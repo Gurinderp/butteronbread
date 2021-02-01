@@ -52,7 +52,7 @@ body {
 }
 
 .one-description {
-	background-color: rgba(236, 159, 96, 0.815);
+	background-color: rgba(236, 159, 96, 0.9);
 	box-shadow: 0px 0px 10px 2px rgb(189, 135, 92);
 	color: white;
 	font-size: 2.5em;
@@ -137,7 +137,7 @@ body {
 }
 
 .stwo-wording {
-	background-color: rgba(236, 159, 96, 0.815);
+	background-color: rgba(236, 159, 96, 0.9);
 	box-shadow: 0px 0px 10px 2px rgb(189, 135, 92);
 	/* border: 1px solid rgb(189, 135, 92); */
 	height: auto;
@@ -156,6 +156,10 @@ body {
 	line-height: 1.8;
 }
 
+.stwo-wording p:last-of-type {
+	padding-bottom: 4vh;
+}
+
 .stwo-image {
 	height: 90vh;
 	width: 75vw;
@@ -166,6 +170,12 @@ body {
 
 /* Section Three*/
 
+.section-three {
+	height: 94vh;
+	padding-bottom: 4vh;
+	padding-top: 2vh;
+}
+
 .LTO-buy {
 	margin-top: 3vh;
 }
@@ -174,6 +184,7 @@ body {
 	background-color: transparent;
 	border: none;
 	color: brown;
+	font-size: 1.2em;
 	letter-spacing: 0.1vw;
 	text-decoration: none;
 }
@@ -181,21 +192,18 @@ body {
 .sthree-countdown {
 	background-color: rgb(248, 190, 114);
 	padding: 2vh;
-	margin-left: 2.8vw;
-	margin-bottom: 2vh;
 	text-align: center;
-	width: 25vw;
+	width: 30vw;
 }
 
 .sthree-countdown p {
 	color: red;
-	font-size: 4vh;
+	font-size: 2em;
 }
 
 .sthree-image {
-	height: 70vh;
-	width: 60vw;
-	margin-left: auto;
+	height: 80vh;
+	width: 65vw;
 }
 
 .sthree-LTO {
@@ -203,23 +211,22 @@ body {
 }
 
 .sthree-wording {
-	background-color: rgb(235, 169, 116);
-	border: 1px solid rgb(189, 135, 92);
+	background-color: rgba(236, 159, 96, 0.9);
 	box-shadow: 0px 0px 10px 2px rgb(189, 135, 92);
-	height: 34vh;
+	height: auto;
 	margin-top: auto;
 	margin-bottom: auto;
-	margin-right: auto;
 	padding: 3vh;
-	transform: translate(-4vw, -6vh);
+	transform: translate(-3vw, -6vh);
 	text-align: center;
-	width: 30vw;
+	width: auto;
 }
 
 .sthree-wording p {
 	color: rgb(255, 236, 220);
 	font-size: 5vh;
 	line-height: 1.4;
+	padding: 2vh;
 }
 
 .sthree-warning {
@@ -229,7 +236,7 @@ body {
 	line-height: 1.2;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2.3vh;
+	margin-top: 1vh;
 	padding: 1vh;
 	width: 40%;
 }
